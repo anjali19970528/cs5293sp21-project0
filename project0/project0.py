@@ -4,6 +4,7 @@ import tempfile
 import PyPDF2
 import sqlite3
 import re
+import os
 
 def fetchincidents(url):
    
@@ -73,6 +74,8 @@ def extractincidents(incident_data):
 def createdb():
     #creating a connection with database name parameter
     db_file = "normanpd.db"
+    if os.path.exists(db_file):
+        os.remove(db_file)
     conn = None
     try:
         conn = sqlite3.connect(db_file)
