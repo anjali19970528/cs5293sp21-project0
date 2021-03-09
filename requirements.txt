@@ -1,0 +1,12 @@
+antiorm==1.2.1
+appdirs==1.4.4
+certifi==2020.12.5
+db==0.1.1
+db-sqlite3==0.0.1
+distlib==0.3.1
+filelock==3.0.12
+pipenv==2020.11.15
+PyPDF2==1.26.0
+six==1.15.0
+virtualenv==20.4.2
+virtualenv-clone==0.5.4
