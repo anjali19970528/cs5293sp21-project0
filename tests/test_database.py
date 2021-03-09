@@ -2,9 +2,10 @@ import pytest
 import os
 from os import path
 import sqlite3
+from project0 import project0
 
-database='normanpd.db'
 def test_createdb():
+    database='normanpd.db'
     d_b=project0.createdb()
     a=path.exists(database)
     assert True == a

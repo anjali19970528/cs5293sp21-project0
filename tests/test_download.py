@@ -1,7 +1,9 @@
 import pytest
+from project0 import project0
 
 def test_fetchincidents(url):
          assert project0.fetchincidents(url) is not None
+
 
 def test_extract_fields():
     byte_data=project0.fetchincidents(url)
