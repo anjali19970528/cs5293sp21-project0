@@ -1,7 +1,12 @@
 import pytest
-from project0 import project0
+import os
+cwd = os.getcwd()
+import sys
+sys.path.insert(1,cwd+"/project0/")
+import project0
 
-def test_fetchincidents(url):
+url = "https://www.normanok.gov/sites/default/files/documents/2021-03/2021-03-03_daily_incident_summary.pdf"
+def test_fetchincidents():
          assert project0.fetchincidents(url) is not None
 
 

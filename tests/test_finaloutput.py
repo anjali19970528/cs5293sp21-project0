@@ -1,6 +1,13 @@
 import pytest
 import sqlite3
-from project0 import project0
+import os
+cwd = os.getcwd()
+import sys
+sys.path.insert(1,cwd+"/project0/")
+
+#from project0 import project0
+import project0
+
 
 def test_status():
     url = "https://www.normanok.gov/sites/default/files/documents/2021-03/2021-03-03_daily_incident_summary.pdf"
@@ -10,3 +17,4 @@ def test_status():
     project0.populatedb(db, incidents)
     a = list(db.execute("SELECT `nature`, count(*) FROM `incidents`  GROUP BY `nature`" ))
     assert a[0] == ('911 Call Nature Unknown', 3)
+
