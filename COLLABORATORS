@@ -1,11 +1,11 @@
-**Sources used:**\
-https://stackoverflow.com/questions/23045832/sqlite3-programmingerror-cannot-operate-on-a-closed-database-python-sqlite
-https://stackoverflow.com/questions/41553046/trying-to-convert-a-numerical-tuple-into-a-string
-https://stackoverflow.com/questions/47177060/how-can-i-read-a-pdf-file-from-inline-raw-bytes-not-from-file
-https://stackoverflow.com/questions/252703/what-is-the-difference-between-pythons-list-methods-append-and-extend
-https://stackoverflow.com/questions/54382818/using-a-loop-to-insert-all-entries-in-a-list-into-an-sqlite-database
-https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+Sources used:
+stackoverflow  https://stackoverflow.com/questions/23045832/sqlite3-programmingerror-cannot-operate-on-a-closed-database-python-sqlite
+stackoverflow  https://stackoverflow.com/questions/41553046/trying-to-convert-a-numerical-tuple-into-a-string
+stackoverflow  https://stackoverflow.com/questions/47177060/how-can-i-read-a-pdf-file-from-inline-raw-bytes-not-from-file
+stackoverflow  https://stackoverflow.com/questions/252703/what-is-the-difference-between-pythons-list-methods-append-and-extend
+stackoverflow  https://stackoverflow.com/questions/54382818/using-a-loop-to-insert-all-entries-in-a-list-into-an-sqlite-database
+stackoverflow  https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 
-**People contacted:**\
+People contacted:
 Aliya Shaikh | co-student | discussed about data extraction.
                                                              
